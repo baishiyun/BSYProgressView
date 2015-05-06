@@ -14,6 +14,7 @@
 		04F48B651AFA31A400ADC7BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F48B641AFA31A400ADC7BB /* Images.xcassets */; };
 		04F48B681AFA31A400ADC7BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F48B661AFA31A400ADC7BB /* LaunchScreen.xib */; };
 		04F48B741AFA31A400ADC7BB /* BSYProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F48B731AFA31A400ADC7BB /* BSYProgressViewTests.m */; };
+		04F48B7F1AFA31E200ADC7BB /* BSYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F48B7E1AFA31E200ADC7BB /* BSYView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		04F48B6D1AFA31A400ADC7BB /* BSYProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSYProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F48B721AFA31A400ADC7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F48B731AFA31A400ADC7BB /* BSYProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSYProgressViewTests.m; sourceTree = "<group>"; };
+		04F48B7D1AFA31E200ADC7BB /* BSYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSYView.h; sourceTree = "<group>"; };
+		04F48B7E1AFA31E200ADC7BB /* BSYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSYView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		04F48B4B1AFA31A400ADC7BB = {
 			isa = PBXGroup;
 			children = (
+				04F48B7D1AFA31E200ADC7BB /* BSYView.h */,
+				04F48B7E1AFA31E200ADC7BB /* BSYView.m */,
 				04F48B561AFA31A400ADC7BB /* BSYProgressView */,
 				04F48B701AFA31A400ADC7BB /* BSYProgressViewTests */,
 				04F48B551AFA31A400ADC7BB /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F48B601AFA31A400ADC7BB /* ViewController.m in Sources */,
+				04F48B7F1AFA31E200ADC7BB /* BSYView.m in Sources */,
 				04F48B5D1AFA31A400ADC7BB /* AppDelegate.m in Sources */,
 				04F48B5A1AFA31A400ADC7BB /* main.m in Sources */,
 			);
